@@ -12,6 +12,7 @@
     color:red;
     }
 
+
     </style>
 </head>
 <body>
@@ -57,22 +58,24 @@
 
 <h3>Para enterarte de mis proximos viajes completa esta encuesta!</h3>
 <br>
-<label for="email">Correo electrónico:</label>
-<input type="text" id="email" name="email"> <br>
-<br>
-<input type="radio" id="notif_email" name="notif" value="recibe-notificacion">
-<label for="notif_email">Si! Quiero recibir notificaciones</label> <br>
-<input type="radio" id="no_notif" name="notif" value="no-recibe">
-<label for="no_notif">No! No quiero notificaciones!</label>
-<br>
-<h4>Como llegaste hasta aquí?</h4>
-<label for="red_ig">Instagram</label>
-<input type="checkbox" id="red_ig" name="red_social" value="instagram">
-<label for="red_fac">Facebook</label>
-<input type="checkbox" id="red_fac" name="red_social" value="facebook">
-<label for="red_tw">Twitter</label>
-<input type="checkbox" id="red_tw" name="red_social" value="twitter">
-<br>
-<button type="submit">Enviar Formulario</button>
+<form action="/" method="post">
+    <label for="email">Correo electrónico:</label>
+    <input type="text" id="email" name="email"> <br>
+    <br>
+    <input type="radio" id="notif_email" name="notif" value="recibe-notificacion">
+    <label for="notif_email">Si! Quiero recibir notificaciones</label> <br>
+    <input type="radio" id="no_notif" name="notif" value="no-recibe">
+    <label for="no_notif">No! No quiero notificaciones!</label>
+    <br>
+    <h4>Como llegaste hasta aquí?</h4>
+    <label for="red_ig">Instagram</label>
+    <input type="checkbox" id="red_ig" name="red_social" value="instagram">
+    <label for="red_fac">Facebook</label>
+    <input type="checkbox" id="red_fac" name="red_social" value="facebook">
+    <label for="red_tw">Twitter</label>
+    <input type="checkbox" id="red_tw" name="red_social" value="twitter">
+    <br>
+    <button type="submit">Enviar Formulario</button>
+</form>
 </body>
 </html>
