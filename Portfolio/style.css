@@ -1,0 +1,156 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+
+.main_box{
+	width:970px;
+	height:1029px;
+	background-image: linear-gradient(#F1F1F1, white, #F1F1F1);
+}
+
+.header{
+	width:100%;
+	height:5%;
+	display:flex;
+}
+
+.main_body{
+	width:100%;
+	height:35%;
+}
+
+.brown_box{
+	height:85%;
+	background-image: linear-gradient(#251419, #6F5964, #251419);
+	padding:2.5%;
+}
+
+.footer{
+	width:100%;
+	height:5%;
+}
+
+.self_portrait{
+	height:auto;
+	width:45%;
+	border:5px solid silver;
+
+}
+
+.top_body{
+	width:100%;
+	height:auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.info{
+	width:50%;
+	height:auto;
+    background-image: linear-gradient(to right, white , #CDBECB);
+}
+
+.bottom_body{
+	width:100%;
+	height:65%;
+	display:flex;
+	justify-content:space-between;
+}
+
+.bottom_boxes{
+	height:100%;
+	width:31%;
+    background-image: linear-gradient(to right, white , #CDBECB);
+}
+
+.box_image{
+	width: 100%;
+}
+
+h1 {
+	width:60%;
+	color:black;
+	margin-left: 12px;
+	font-family: "Comic Sans, Comic Sans MS", cursive;
+}
+
+h3 {
+	color:white;
+	padding:1.5%;
+	background-image: linear-gradient(lightgrey, grey, lightgrey);
+}
+
+.technology{
+	
+}
+
+.logo_box{
+	margin-top:12px;
+	padding-left: 8px;
+	padding-right: 8px;
+	width:100%;
+	height:25%;
+}
+
+.logos{
+	width:15%;
+	padding-left:4px;
+	padding-right:4px;
+}
+
+.buttons{
+	display:flex;
+	border-radius: 5px;
+	justify-content:center;
+}
+
+button {
+	color: white;
+	border: 1px solid black;
+	background-color: #407D61;
+	padding: 2px;
+	margin-right:12px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}	
+
+.contact{
+	text-align: center;
+}
+
+.social {
+	display:flex;
+	justify-content: center;
+}
+
+.social_logos {
+	height: 2.5%;
+	width: 2.5%;
+}
+
+h4 {
+	font-style: italic;
+	text-decoration: underline;
+	margin-right: 10px;
+}
+
+h5 {
+	font-size:18px;
+	margin-bottom:8px;
+}
+
+p{
+	padding: 8px;
+	height:32.5%;
+    background-image: linear-gradient(to right, white , #CDBECB);
+}
+
+.big_text {
+	height:70%;
+}
+
+a {
+	margin-left:8px;
+	text-decoration: underline;
+}
